@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 0 50px;
+}    
+.navbtn button{
+    background-color: rgb(122, 86, 38);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.navbtn button:hover{
+    background-color: rgb(107, 96, 107) ;
+    color: black;
+    padding: 7px 12px;
+    transform: 0.5s;
+}
+.nav-links ul a{
+    color: white;
+}
+.hero{
+    background-image: url(realistic-makeup-background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+.sub-parent{
+    color: white;
+    text-align: center;
+}
+.sub-parent h1{
+    font-size: 75px;
+    font-family: 'poppins';
+}
+.sub-parent p{
+    font-size: 18px;
+}
+.sub-parent button{
+    background-color: rgb(122, 86, 38);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;   
+}
+h2 {
+    color: black;
+    text-align:center;
+}
+.sub-parent h1,p{
+    color: black;
+}
+.about{
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+}
+.about-parent{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-content button{
+    background-color: rgb(122, 86, 38);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;   
+}
+.about-content p{
+    font-family: "Sofadi One", system-ui;
+    font-size: x-large;
+}
+h2{
+    text-align: left;
+}
+.CTA{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-cta{
+    text-align: center;
+    padding: 80px 250px;
+    border-radius: 10px;
+    color:  rgb(122, 86, 38);
+    /* background-color: rgb(122, 86, 38); */
+    background-image: url(abstract-smooth-brown-wall-background.avif);
+}
+.parent-cta h1{
+    font-size: 100px;
+}
+.parent-cta a{
+    font-size: 20px;
+    margin: 0 5px;
+}
+a{
+    color: rgb(0, 0, 0)
+}
+.mail{
+    font-size: 20px;  
+}
